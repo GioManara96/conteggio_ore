@@ -1,0 +1,21 @@
+{
+    "name": "giovanni/ore_stage",
+    "description": "programma per scrivere le ore fatte allo stage e salvarle in un excel",
+    "type": "project",
+    "license": "CC",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giovanni",
+            "email": "giomanara1996@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.25",
+        "pear/console_table": "^1.3"
+    }
+}
